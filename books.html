@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Livros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Meus Livros</h1>
+        <div class="language-switch">
+            <button onclick="changeLanguage('pt')">PT</button>
+            <button onclick="changeLanguage('ua')">UA</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+        </ul>
+    </nav>
+
+    <section id="books">
+        <h2>Publicações</h2>
+        <button onclick="addBook()">Adicionar Livro</button>
+        <div id="book-list"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 Di Curzi</p>
+    </footer>
+</body>
+</html>
